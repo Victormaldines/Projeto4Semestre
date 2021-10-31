@@ -1,103 +1,103 @@
 * {
-				padding: 0;
-				margin: 0;
-				box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 header {
-				background: #ff8955;
-				padding: 20px 10px;
+	background: #ff8955;
+	padding: 20px 10px;
 }
 
 header h1 {
-				color: rgba(0,0,0,1);
+	color: rgba(0,0,0,1);
 }
 
 .conteudo {
-				display: grid;
-				grid-template-columns: 2fr 8fr;
+	display: grid;
+	grid-template-columns: 2fr 8fr;
 }
 
 aside nav {
-				padding: 5px 0;
-				text-align: center;
+	padding: 5px 0;
+	text-align: center;
 }
 
 aside nav div {
     padding: 10px;
-				border-bottom: 1px solid #ff8955;
-				text-transform: uppercase;
+	border-bottom: 1px solid #ff8955;
+	text-transform: uppercase;
 }
 
 .active {
     font-weight: bold;
-				background: #ff8955;
+	background: #ff8955;
 }
 
 main {
     padding: 10px;
-				background: #f8f8f8;
+	background: #f8f8f8;
 }
 
 .acoes {
-				display: flex;
-				align-items: center;
-				justify-content: space-between;
-				padding: 10px;
-				margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	margin: 10px;
 }
 
 .acoes i,
 button {
-				color: rgba(255,255,255,1);
-				background: rgba(0,0,0,1);
-				padding: 5px 10px;
-				border: 2px solid rgba(0,0,0,1);
-				border-radius: 5px;
-				transition: all 0.1s ease-in-out;
+	color: rgba(255,255,255,1);
+	background: rgba(0,0,0,1);
+	padding: 5px 10px;
+	border: 2px solid rgba(0,0,0,1);
+	border-radius: 5px;
+	transition: all 0.1s ease-in-out;
 }
 
 .box-pesquisar {
-				display: flex;
-				align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 i.pesquisa {
-    margin-left: -4px;
-				padding: 5px 10px;
-				border-radius: 0 5px 5px 0;
+	margin-left: -4px;
+	padding: 5px 10px;
+	border-radius: 0 5px 5px 0;
 }
 
 i:active,
 button:active {
-				color: rgba(0,0,0,1);
-				background: rgba(200,200,200,1);
+	color: rgba(0,0,0,1);
+	background: rgba(200,200,200,1);
 }
 
 .acoes input {
-				border: 2px solid black;
-				border-radius: 5px 0 0 5px;
-				padding: 7px 10px;
+	border: 2px solid black;
+	border-radius: 5px 0 0 5px;
+	padding: 7px 10px;
 }
 
 table {
-				width: 100%;
-				text-align: center;
-				border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
 }
 
 table tr:nth-child(n+1) {
-				border-bottom: 1px solid #f8b991;
+	border-bottom: 1px solid #f8b991;
 }
 
 table tr:nth-child(even) {
-				/*background: #f8b991;*/
+	/*background: #f8b991;*/
 }
 
 table th {
-				text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 table td {
-				padding: 2px;
+	padding: 2px;
 }
