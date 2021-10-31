@@ -5,8 +5,13 @@
 }
 
 header {
-	background: #ff8955;
+	background: rgba(255, 137, 85, 1);
 	padding: 20px 10px;
+}
+
+body {
+	font-family: "Fira code", arial, serif;
+	font-weight: 500;
 }
 
 header h1 {
@@ -19,19 +24,28 @@ header h1 {
 }
 
 aside nav {
-	padding: 5px 0;
 	text-align: center;
 }
 
 aside nav div {
     padding: 10px;
-	border-bottom: 1px solid #ff8955;
+	border-bottom: 1px solid rgba(255, 137, 85, 1);
 	text-transform: uppercase;
+	transition: all .1s ease-in-out;
+}
+
+aside nav div:hover {
+	cursor: pointer;
+	background: rgba(248, 185, 145, 1);
+}
+
+aside nav div:active {
+	background: rgba(221, 119, 51, 1);
 }
 
 .active {
     font-weight: bold;
-	background: #ff8955;
+	background: rgba(255, 137, 85, 1);
 }
 
 main {
@@ -49,10 +63,10 @@ main {
 
 .acoes i,
 button {
-	color: rgba(255,255,255,1);
-	background: rgba(0,0,0,1);
-	padding: 5px 10px;
-	border: 2px solid rgba(0,0,0,1);
+	color: rgba(255, 255, 255, 1);
+	background: rgba(0, 0, 0, 1);
+	padding: 6px 8px;
+	border: 2px solid rgba(0, 0, 0, 1);
 	border-radius: 5px;
 	transition: all 0.1s ease-in-out;
 }
@@ -62,20 +76,30 @@ button {
 	align-items: center;
 }
 
-i.pesquisa {
+i.fa-search {
 	margin-left: -4px;
-	padding: 5px 10px;
+	padding: 7px 10px;
 	border-radius: 0 5px 5px 0;
+}
+
+i:hover,
+button:hover {
+	cursor: pointer;
+	background:  rgba(255, 137, 85, 1);
+	border-color: rgba(255, 137, 85, 1);
 }
 
 i:active,
 button:active {
-	color: rgba(0,0,0,1);
-	background: rgba(200,200,200,1);
+	color: rgba(255, 137, 85, 1);
+	border-color: rgba(255, 137, 85, 1);
+	background: rgba(248,248,248,1);
 }
 
+
+
 .acoes input {
-	border: 2px solid black;
+	border: 2.4px solid black;
 	border-radius: 5px 0 0 5px;
 	padding: 7px 10px;
 }
@@ -84,14 +108,20 @@ table {
 	width: 100%;
 	text-align: center;
 	border-collapse: collapse;
+	cursor: default;
 }
 
 table tr:nth-child(n+1) {
-	border-bottom: 1px solid #f8b991;
+	border-bottom: 1px solid rgba(248, 185, 145, 1);
+}
+
+tbody tr:hover {
+	background: rgba(248, 185, 145, .2);
 }
 
 table th {
 	text-transform: uppercase;
+	padding: 20px 0;
 }
 
 table td {
