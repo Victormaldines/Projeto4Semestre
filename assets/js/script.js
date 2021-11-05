@@ -4,16 +4,20 @@
 		const el = e.target;
 		
 		// Caminhos
+		if (el.classList.contains('cinema')) {
+			location.href = './index.php';
+		}
+
 		if (el.classList.contains('nav-sessoes')) {
-			location.href = './sessoes.php';
+			location.href = './sessoes.php?pagina=sessao';
 		}
 
 		if (el.classList.contains('nav-filmes')) {
-			location.href = './filmes.php';
+			location.href = './filmes.php?pagina=filme';
 		}
 
 		if (el.classList.contains('nav-salas')) {
-			location.href = './salas.php';
+			location.href = './salas.php?pagina=sala';
 		}
 
 		if (el.classList.contains('add-filme')) {

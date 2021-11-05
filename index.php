@@ -1,10 +1,13 @@
-<?php
+<?php require './includes/header.php' ?>
+<style>
+	.conteudo {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+</style>
+<?php require './includes/aside.php' ?>
+<?php require './includes/index.php' ?>
 
-require __DIR__.'/vendor/autoload.php';
 
-use \App\Entity\Sessao;
+<?php require './includes/footer.php' ?>
 
-$sessao = Sessao::getSessoes();
-include __DIR__ .'/includes/header.php';
-include __DIR__ .'/includes/sessoes.php';
-include __DIR__ .'/includes/footer.php';

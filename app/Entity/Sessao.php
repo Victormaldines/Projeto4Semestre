@@ -11,9 +11,6 @@ class Sessao {
 	private $bancoDados;
 
 	private $id;
-	private $titulo;
-	private $duracao;
-	private $descricao;
 
 	public function __construct($tabela) {
 		$this->bancoDados = new Database($tabela);

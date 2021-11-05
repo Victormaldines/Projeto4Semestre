@@ -5,10 +5,6 @@
 				<i class="add-sessao fas fa-plus"></i>
 				<span >ADICIONAR SESSÃO</span>
 			</div>
-			<div class="box-pesquisar">
-				<input type="text" placeholder="PESQUISAR">
-				<i class="fas fa-search"></i>
-			</div>
 		</div>
 		<div>
 			<table>
@@ -32,7 +28,7 @@
 							<td><?= $sessao['numero_sala'] ?></td>
 							<td><?= $sessao['inicio'] ?></td>
 							<td><?= $sessao['fim'] ?></td>
-							<td><?= $sessao['preco'] ?></td>
+							<td><strong>R$</strong> <?= $sessao['preco'] ?></td>
 							<td><button class="excluir exSessao fas fa-times"></button></td>
 							<td><button class="editar edSessao fas fa-edit"></button></td>
 						</tr>

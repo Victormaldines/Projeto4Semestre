@@ -5,10 +5,6 @@
 				<i class="add-sala fas fa-plus"></i>
 				<span>ADICIONAR SALA</span>
 			</div>
-			<div class="box-pesquisar">
-				<input type="text" placeholder="PESQUISAR">
-				<i class="fas fa-search"></i>
-			</div>
 		</div>
 		<div>
 			<table>

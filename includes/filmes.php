@@ -5,10 +5,6 @@
 				<i class="add-filme fas fa-plus"></i>
 				<span>ADICIONAR FILME</span>
 			</div>
-			<div class="box-pesquisar">
-				<input type="text" placeholder="PESQUISAR">
-				<i class="fas fa-search"></i>
-			</div>
 		</div>
 		<div>
 			<table>

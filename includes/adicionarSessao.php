@@ -4,7 +4,6 @@
 			<form action="adicionarSessao.php?id=<?= isset($_GET['id']) ?  $_GET['id'].'&acao=atualizar' : '' ?>" method="POST">
 				<div>
 					<label for="codFilme">Nome do Filme:</label>
-					<div><i>+</i> <span>Add Filme (possibilidade)</span></div>
 					<select name="codFilme" id="codFilme">
 						<option value="0">Escolha</option>
 						<?php foreach ($filmes as $filme) { ?>
@@ -20,7 +19,6 @@
 				</div>
 				<div>
 					<label for="codSala">Número da Sala:</label>
-					<div><i>+</i> <span>Add Sala (possibilidade)</span></div>
 
 					<select name="codSala" id="codSala">
 						<option value="0">Escolha</option>

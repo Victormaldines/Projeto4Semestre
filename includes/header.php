@@ -22,9 +22,9 @@
         <div class="fundo" onclick="displayCaixa('none')"></div>
     </div>
     <header>
-            <h1>
-                Cinema
-            </h1>
-        </header>
+        <span >
+            <h1 class="cinema">Cinema</h1>
+        </span>
+    </header>
 
             <div class="conteudo">
